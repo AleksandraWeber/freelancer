@@ -1,0 +1,101 @@
+@import 'variables';
+
+header {
+	background: url('/assets/images/bg.jpg') no-repeat center top;
+	min-height: 1057px;
+	.logo {
+		width: 140px;
+		height: 75px;
+		background-color: $mainColor;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		p {
+		 padding-bottom: 14px;
+		 font-family: 'Domine', serif;
+		 font-size: 20px;
+		 font-weight: 700;
+		 color: #ffffff;
+		 span {
+			 color: #314a5b;
+		 }
+		}
+	}
+	nav {
+		min-height: 70px;
+		display: flex;
+		align-items: center;
+		margin-left: 12px;
+	}
+	ul {
+		display: flex;
+		a {
+			font-family: $fM;
+			font-size: 14px;
+			font-weight: 700;
+			color: #263742;
+			text-decoration: none;
+			text-transform: uppercase;
+			margin-right: 36px;
+		}
+	}
+	.social-box  {
+		a {
+			margin-right: 24px;
+			&:last-child {
+				margin-right: 0;
+			}
+			color: $mainColor;
+			font-size: 20px;
+		}
+		.fa-twitter {
+			font-size: 22px;
+		}
+	}
+	.description {
+		margin-top: 300px;
+		h1 {
+			font-family: $fM;
+			font-size: 48px;
+			font-weight: bold;
+			line-height: 1.1;
+			letter-spacing: -1.9px;
+			color: #314a5b;
+			text-transform: uppercase;
+			@extend .dot;
+		}
+		h2, p {
+			font-family: $fOS;
+			font-size: 20px;
+			line-height: 2.02;
+			color: #314a5b;
+		}
+		p {
+			line-height: 1.5;
+			padding: 5px;
+			background-color: rgba(255, 255, 255, 0.5);
+			box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+			
+		}
+		button {
+			width: 171px;
+			height: 64px;
+			background-color: $mainColor;
+			border-radius: 5px;
+			margin-top: 35px;
+			font-family: $fOS;
+			font-size: 15px;
+			font-weight: bold;
+			color: #ffffff;
+			text-transform: uppercase;
+			cursor: pointer;
+			transition: all 300ms ease;
+			&:hover {
+				background-color: darken($mainColor, 5%);
+				box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+			}
+		}
+	}
+}

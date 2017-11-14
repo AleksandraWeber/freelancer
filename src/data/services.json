@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"title": "Peace of Mind",
+		"description": "You’re safe with us. The privacy and security of your financial information is our top priority.",
+		"url": "#"
+	},
+	{
+		"id": 2,
+		"title": "Free. Actually free",
+		"description": "No more pricing grids. No more fine print. Sending and receiving cash is free without gimmicks.",
+		"url": "#"
+	},
+	{
+		"id": 3,
+		"title": "Simple payments",
+		"description":"The same debit card you use to buy coffee lets deposit money straight to your bank account.",
+		"url": "#"
+	}
+]

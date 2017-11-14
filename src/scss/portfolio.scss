@@ -1,0 +1,43 @@
+@import 'variables';
+
+.portfolio {
+	padding-top: 50px;
+	padding-bottom: 105px;
+	img {
+		max-width: 100%;
+	}
+	@media (min-width: 992px) {
+		.col-lg-6 + .col-lg-6{
+			padding-right: 245px;
+			padding-left: 100px;
+		}
+	}
+	h4{
+		@extend .dot;
+		font-family: $fM;
+		font-size: 40px;
+		font-weight: bold;
+		line-height: 1.15;
+		letter-spacing: -1.6px;
+		color: #314a5b;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
+	h5 {
+		font-family: $fOS;
+		font-size: 16px;
+		line-height: 1.25;
+		color: #314a5b;
+		margin-bottom: 25px;
+	}
+	p {
+		font-family: $fOS;
+		font-size: 15px;
+		line-height: 1.47;
+		color: #9aa0ab;
+		margin-bottom: 30px;
+		&:last-child {
+			margin-bottom: 45px;
+		}
+	}
+}

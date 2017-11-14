@@ -1,0 +1,22 @@
+[
+	{
+		"id": 1,
+		"link": "#",
+		"iconClassName": "fa-twitter"
+	},
+	{
+		"id": 2,
+		"link": "#",
+		"iconClassName": "fa-camera"
+	},
+	{
+		"id": 3,
+		"link": "#",
+		"iconClassName": "fa-facebook"
+	},
+	{
+		"id": 4,
+		"link": "#",
+		"iconClassName": "fa-google-plus"
+	}
+]

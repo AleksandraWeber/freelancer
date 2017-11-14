@@ -1,0 +1,10 @@
+$mainColor: #fa5c65;
+$fM: 'Montserrat', sans-serif;
+$fOS: 'Open Sans', sans-serif;
+
+.dot {
+	&:after {
+		content: '.';
+		color: $mainColor;
+	}
+}

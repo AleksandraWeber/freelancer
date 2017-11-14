@@ -1,0 +1,14 @@
+@import 'variables';
+
+.more {
+	font-family: $fM;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.43;
+	color: $mainColor;
+	text-transform: uppercase;
+	text-decoration: none;
+	i {
+		padding-left: 7px;
+	}
+}

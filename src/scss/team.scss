@@ -1,0 +1,63 @@
+@import 'variables';
+
+.team {
+	.teamHeader {
+		h4 {
+			font-family: $fM;
+			font-size: 32px;
+			font-weight: bold;
+			line-height: 1.68;
+			letter-spacing: -0.6px;
+			color: #314a5b;
+			text-transform: uppercase;
+			@extend .dot;
+		}
+		h5 {
+			font-family: $fOS;
+			font-size: 16px;
+			line-height: 1.25;
+			color: #9aa0ab;
+			margin-bottom: 41px;
+		}
+	}
+	.teamUsers {
+		.user-container{
+			display: flex;
+			margin-bottom: 56px;
+		}
+		img {
+			max-width: 100%;
+			border-radius: 50%;
+			box-shadow: 5px 5px 10px #000000;
+		}
+		.user-description {
+			margin-left: 23px;
+		}
+		h4 {
+			font-family: $fM;
+			font-size: 22px;
+			font-weight: bold;
+			letter-spacing: -0.4px;
+			color: #314a5b;
+			text-transform: uppercase;
+			margin-bottom: 5px;
+		}
+		h5 {
+			font-family: $fOS;
+			font-size: 14px;
+			line-height: 1.43;
+			color: $mainColor;
+			margin-bottom: 8px;
+		}
+		p {
+			font-family: $fOS;
+			font-size: 14px;
+			line-height: 1.43;
+			color: #9aa0ab;
+		}
+	}
+	.btn {
+		display: flex;
+		justify-content: flex-end;
+	}
+}

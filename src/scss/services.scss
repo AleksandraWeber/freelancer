@@ -1,0 +1,29 @@
+@import 'variables';
+
+.services{
+	padding-top: 86px;
+	.col-lg-4{
+		padding-bottom: 54px;
+	}
+	@media (min-width: 992px) {
+		.col-lg-4{
+			padding-right: 137px;
+		}
+	}
+	h3 {
+		font-family: $fM;
+		font-size: 26px;
+		font-weight: bold;
+		color: #465065;
+		text-transform: uppercase;
+		margin-bottom: 24px;
+		@extend .dot;
+	}
+	p {
+		font-family: $fOS;
+		font-size: 15px;
+		line-height: 1.47;
+		color: #9aa0ab;
+		margin-bottom: 29px;
+	}
+}
